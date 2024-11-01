@@ -1,5 +1,5 @@
-﻿using Tyuiu.KushnirS.Sprint3.Task6.V8.Lib;
-namespace Tyuiu.KushnirS.Sprint3.Task6.V8
+﻿using Tyuiu.KushnirS.Sprint3.Task6.V7.Lib;
+namespace Tyuiu.KushnirS.Sprint3.Task6.V7
 {
     internal class Program
     {
@@ -7,9 +7,7 @@ namespace Tyuiu.KushnirS.Sprint3.Task6.V8
         {
             DataService ds = new DataService();
 
-           
-            Console.WriteLine("***************************************************************************");
-
+      
             int startValue = 17;
             int stopValue = 26;
             Console.WriteLine("Начало отрезка = " + startValue);
